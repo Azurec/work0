@@ -13,6 +13,6 @@ func main() {
 		if (input == "quit") || (input == "exit") {
 			break
 		}
-		fmt.Printf("执行结果：")
+		fmt.Printf("执行...")
 	}
 }
