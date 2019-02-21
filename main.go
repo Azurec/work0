@@ -5,10 +5,12 @@ import (
 )
 
 func main() {
+	var input string
+	var flag bool = false
 	for true {
-		fmt.Printf("Json:")
-		var input string
+		//	fmt.Printf("Json:")
 		fmt.Scanf("%s", &input)
+		flag = false
 		// 输入exit或quit则退出
 		if (input == "quit") || (input == "exit") {
 			break
